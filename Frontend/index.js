@@ -22,3 +22,5 @@ useEffect(() => {
     return () => clearInterval(interval);
   }
 }, [displayData]);
+
+// Below is the css for showing outer layer infront of the screen
