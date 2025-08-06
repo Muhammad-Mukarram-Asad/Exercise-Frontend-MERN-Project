@@ -25,16 +25,15 @@ useEffect(() => {
 
 // Below is the css for showing outer layer infront of the screen
 basic template in react is as follows:
-<div className="calendar">
+<div className={styles["calendar"]}>
   <div>
   </div>
-  <div className="active">
+  <div className={styles["active"]}>
   </div>
 .calendar {
   z-index: -1;
   position: fixed;
   background: rgba(57, 122, 133, 0.5);
-
   height: 100%;
   width: 100%;
   display: flex;
@@ -47,7 +46,7 @@ basic template in react is as follows:
 .calendar > div {
   background-color: rgba(57, 122, 133, 0.5);
   transform: translateY(100%);
-  background-color: white;
+//  background-color: white;
   width: 100%;
   transition: transform 250ms ease-out;
 
