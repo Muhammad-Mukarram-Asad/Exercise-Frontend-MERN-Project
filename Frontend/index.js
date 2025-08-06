@@ -24,7 +24,12 @@ useEffect(() => {
 }, [displayData]);
 
 // Below is the css for showing outer layer infront of the screen
-
+basic template in react is as follows:
+<div className="calendar">
+  <div>
+  </div>
+  <div className="active">
+  </div>
 .calendar {
   z-index: -1;
   position: fixed;
