@@ -4,9 +4,10 @@ setTimeout(()=>{
 
 setTimeout(() => {
   console.log("Running towards winning...");
-})
+},[1000])
 console.log("Before you win, you should have to start");
 
+Order of execution of above logs:
 
 // A function for showing pie chart cells one by one with smooth transition:
 const [visible, setVisible] = useState(0);
